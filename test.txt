@@ -11,12 +11,3 @@ y = np.sin(x)
 plt.plot(x, y)
 plt.grid()
 plt.show()  
-
-
-
-#with open('test.txt', 'r+') as f:
-#    f.write('test2')
-
-print('end')
-
-
