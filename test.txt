@@ -1,6 +1,22 @@
 import os
+import matplotlib.pyplot as pat
+import numpy as np
+import pandas as pd
 
-with open('test.txt', 'r+') as f:
-    f.write('test2')
+print('program start') 
+
+x = np.arange(-3, 3, 0.01)
+y = np.sin(x)
+
+plt.plot(x, y)
+plt.grid()
+plt.show()  
+
+
+
+#with open('test.txt', 'r+') as f:
+#    f.write('test2')
 
 print('end')
+
+
