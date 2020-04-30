@@ -2,3 +2,5 @@ import os
 
 with open('test.txt', 'r+') as f:
     f.write('test2')
+
+print('end')
