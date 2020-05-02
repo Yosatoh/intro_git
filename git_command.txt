@@ -2,3 +2,12 @@ git add
 git commit
 git rm
 git status
+git log
+	git log --oneline #一行で表示する
+	git log -p index.html #ファイルの差分を表示する
+		j：上に行く
+		k: 下に行く
+		q: 閲覧やめる
+	git log -n 3 #３つ	のみ見る
+		git log --oneline -n 3 #一行で表示 3つのみ
+	git log -p first.txt # first.txtの履歴のみ表示
