@@ -1,8 +1,15 @@
 ######################
+git remote add
+	git remote add origin https://github.com/user/repo.git
+		user = username
+		repo = repository
+		※各々自分が決めたものを記載する
 
 git add
 git commit
-git rm
+git rm	#Gitの管理から消去
+	git rm [ファイル名]
+	git rm -r[ディレクトリ名]
 git status
 git log
 	git log --oneline #一行で表示する
@@ -16,4 +23,7 @@ git log
 git diff
 	git diff	#git add 前に変更点を確認
 	git diff HEAD 	#git add 後に変更点を確認
+git push
+	git push origin master
+	git push origin feature #ブランチをプッシュする際のコマンド
 #######################
