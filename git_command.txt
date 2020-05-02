@@ -1,3 +1,5 @@
+######################
+
 git add
 git commit
 git rm
@@ -11,3 +13,7 @@ git log
 	git log -n 3 #３つ	のみ見る
 		git log --oneline -n 3 #一行で表示 3つのみ
 	git log -p first.txt # first.txtの履歴のみ表示
+git diff
+	git diff	#git add 前に変更点を確認
+	git diff HEAD 	#git add 後に変更点を確認
+#######################
