@@ -8,8 +8,12 @@ git remote add
 git add
 git commit
 git rm	#Gitの管理から消去
-	git rm [ファイル名]
+	git rm [ファイル名] #ファイルごと消える
 	git rm -r[ディレクトリ名]
+	git rm --cached [ファイル名] #Git管理から消去するが、ファイルは残す
+>git reset HEAD [ファイル名] #変更を元に戻す（rmで消した場合には、ファイルは戻らない）
+>git checkout [ファイル名] #フォルダに消したファイルを戻す
+ 
 git status
 git log
 	git log --oneline #一行で表示する
